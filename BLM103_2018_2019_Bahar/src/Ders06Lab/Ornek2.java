@@ -3,20 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ders4Lab;
+package Ders06Lab;
 
 /**
  *
  * @author alinizam
  */
-public class Ornek4a {
+public class Ornek2 {
     public static void main(String[] args) {
-        int n=10;
-        int f=1;
-        for (int i = 1; i <= n; i++) {
-            f=f*i;
-            System.out.println(i+" faktöriyel = "+f);
+        int sayi=1;
+        for (int i = 0; i < 5; i++) {
+            for (int j = 5; j > i; j--) {
+                System.out.print(sayi + " ");
+                sayi*=2;
+            }
+            System.out.println();
         }
-      
     }
 }

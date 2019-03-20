@@ -3,21 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ders4Lab;
+package Ders06;
 
 /**
  *
  * @author alinizam
  */
-public class Ornek5 {
+public class Ornek4 {
 
     public static void main(String[] args) {
-        int toplam = 0;
-        int i = 0;
-        while (toplam  <= 3000) {
-            i++;
-            toplam += i;
+        int x = 0b101;
+        int y = 3; //011
+        if ((x | y) > 0) {
+            y = y << 1;
+            x = --x + x++;
+            System.out.println("x : " + x + "   y :" + y);
         }
-        System.out.println(i + "'inci elemanda " + " toplam =" + toplam);
+        System.out.println("x : " + x + "   y :" + y);
     }
 }

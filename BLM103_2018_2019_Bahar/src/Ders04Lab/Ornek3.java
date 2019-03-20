@@ -3,21 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ders4Lab;
+package Ders04Lab;
 
 /**
  *
  * @author alinizam
  */
-public class Ornek3a {
+public class Ornek3 {
     public static void main(String[] args) {
         int n=6;
         int sonuc=1;
-        int i=1;
-        while(i<=n){
+        for (int i = 1; i <= n; i++) {
             sonuc=sonuc*i;
-            i++;
         }
-        System.out.println("sonuc="+sonuc);
+        System.out.println("sonuc = "+sonuc);
     }
 }
