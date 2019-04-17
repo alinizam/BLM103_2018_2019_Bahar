@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ders10Lab;
+package Ders09Lab;
 
 /**
  *
@@ -12,6 +12,7 @@ package Ders10Lab;
 public class Ornek1 {
     public static void main(String[] args) {
         int []dizi={4,8,78,98,8,5};
+        
         int arananSayi=80;
         boolean varmi=false;
         for (int i = 0; i < dizi.length; i++) {
